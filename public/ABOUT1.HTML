@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Delicious Eats</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff9f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff6347;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 60px;
+            margin: 0;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: 40px auto;
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #ff6347;
+            font-size: 36px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.7;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin-bottom: 20px;
+        }
+
+        li strong {
+            font-size: 22px;
+            color: #ff6347;
+        }
+
+        li em {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .mission-title {
+            text-align: center;
+            font-size: 28px;
+            color: #ff6347;
+            margin: 40px 0 10px;
+            font-weight: bold;
+        }
+
+        .contact {
+            margin-top: 40px;
+        }
+
+        .contact h2 {
+            animation: slide 10s linear infinite;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        @keyframes slide {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+
+        a {
+            color: #ff6347;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 15px;
+            font-size: 30px;
+            justify-content: flex-start;
+            margin-top: 10px;
+        }
+
+        .social-icons a {
+            color: #ff6347;
+            transition: transform 0.3s;
+        }
+
+        .social-icons a:hover {
+            transform: scale(1.2);
+        }
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        ul li {
+            display: inline;
+        }
+
+        ul li a {
+            color: black;
+            text-decoration: none;
+            font-size: 18px;
+            margin-left: 70px;
+        }
+
+        ul li a:hover,
+        ul li.active a {
+            color: #fff9f5;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 10px;
+            background-color: #ff6347;
+            color: white;
+            font-size: 24px;
+            margin-top: 60px;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 40px;
+            }
+
+            h2 {
+                font-size: 28px;
+            }
+
+            .social-icons {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Delicious Eats</h1>
+    <ul>
+        <li class="active"><a href="index.html"><i class="fa fa-home"></i> HOME</a></li>
+        <li><a href="./dessert.html">DESSERT</a></li>
+        <li><a href="./Appetizers.html">APPETIZER</a></li>
+        <li><a href="./pasta.html">PASTA</a></li>
+        <li><a href="./SALAD.HTML">SALAD</a></li>
+        <li><a href="./burger.html">BURGER</a></li>
+        <li><a href="./piza.html">PIZZA</a></li>
+    
+    </ul>
+</header>
+
+<section>
+    <h2>About Us</h2>
+    <div class="mission-title">OUR MISSION</div>
+    <p>
+        Our mission is to provide a delightful dining experience for everyone. Whether you're dining in, taking out, or catering for an event, we ensure that every dish is made with love and care.
+    </p>
+
+    <p style="color: #ff6347; font-size: 22px; font-weight: 600;">
+        Join us at Delicious Eats and discover your new favorite meal today!
+    </p>
+
+    <div class="contact">
+        <h2>Get in Touch With Us</h2>
+        <p><strong>Address:</strong> Busega</p>
+        <p><strong>Phone:</strong> 0700348613 <i class="fab fa-whatsapp"></i></p>
+        <p><strong>Email:</strong> <a href="mailto:mikendizihiwe@gmail.com">farooqkiirya2@gmail.com</a></p>
+        <p><strong>Social Media:</strong></p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a class="whatsapp-link" href="https://wa.me/256700348613?text=Hello%2C%20I%20would%20like%20to%20place%20an%20order" target="_blank">
+                <i class="fab fa-whatsapp"></i> Chat with us on WhatsApp
+              </a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    &copy;Delicious Eats
+</footer>
+
+</body>
+</html>
